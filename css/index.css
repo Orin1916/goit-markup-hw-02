@@ -3,3 +3,14 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+:root {
+  --font-family: "Roboto", sans-serif;
+  --text-color: #434455;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
